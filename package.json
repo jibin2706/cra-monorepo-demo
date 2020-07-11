@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspace @jibin/app run start",
+    "build": "yarn workspace @jibin/app run build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

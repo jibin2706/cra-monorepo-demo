@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@jibin/common/*": ["../common/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
